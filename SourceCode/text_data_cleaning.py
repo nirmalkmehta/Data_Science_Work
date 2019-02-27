@@ -26,8 +26,7 @@ emoji_pattern_is = re.compile("["
         u"\U0001F680-\U0001F6FF"  # transport & map symbols
         u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
                            "]+", flags=re.UNICODE)
-text = emoji_pattern_is.sub(r'', text)
-print(3,re.sub(r'^<\d*','',text)) # no emoji
+text = emoji_pattern_is.sub(r'', text) # no emoji
 
 '''Split attached word'''
 text = " ".join(re.findall('[A-Z][^A-Z]*', text))
@@ -37,7 +36,8 @@ text = ''.join(''.join(s)[:2] for _, s in itertools.groupby(text))
 
 '''Removal of URL'''
 cleaned_text = re.sub(r'\w+:\/{2}[\d\w-]+(\.[\d\w-]+)*(?:(?:\/[^\s/]*))*', '', text)
-print(cleaned_text)
+
+
 
 
 #Note: emoji_pattern matches only some emoji (not all). 
