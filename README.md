@@ -1,5 +1,5 @@
 ## Text data cleaning
-These days data more than 80% of the data is unstructured – it is either present in data silos or scattered around the digital archives. In order to produce any meaningful actionable insight from data, it is important to know how to work with it in its unstructured form.
+These days, more than 80% of the data is unstructured – it is either present in data silos or scattered around the digital archives. In order to produce any meaningful actionable insight from data, it is important to know how to work with it in its unstructured form.
 
 One of the first steps in working with text data is to pre-process it. It is an essential step before the data is ready for analysis.For example, social media data is highly unstructured – it is an informal communication – typos, bad grammar, usage of slang, presence of unwanted content like URLs, Stopwords, Expressions etc. are the usual suspects.
 
