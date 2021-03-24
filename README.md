@@ -1,2 +1,2 @@
 ### Data_Science_Work
-This module consists of sample work of data cleaning.
+This module consists of sample work of data analytics.
